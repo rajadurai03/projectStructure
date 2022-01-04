@@ -1,0 +1,47 @@
+name: nft
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  get:
+  dio:
+
+  google_fonts:
+  shared_preferences:
+  cached_network_image:
+  carousel_slider:
+  flutter_svg:
+  flutter_staggered_grid_view:
+  webview_flutter:
+  flutter_html:
+  google_maps_flutter:
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+
+
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/image/
+    - assets/icon/
+    - assets/setting/
+    - assets/locale/
